@@ -2,7 +2,6 @@
   {
     "id": "breakfast",
     "title": "Breakfast",
-    "banner": "images/comfort.jpg",
     "items": [
       {
         "name": "PH Sausage Pie",
@@ -49,7 +48,6 @@
   {
     "id": "sandwiches",
     "title": "Sandwiches",
-    "banner": "images/croissant.jpg",
     "items": [
       {
         "name": "PH Grilled Cheese",
@@ -96,7 +94,6 @@
   {
     "id": "desserts",
     "title": "Desserts",
-    "banner": "images/cake.jpg",
     "items": [
       {
         "name": "Muffin",
@@ -147,7 +144,6 @@
   {
     "id": "drinks",
     "title": "Drinks",
-    "banner": "images/coffee.jpg",
     "note": "All of our espresso-based drinks are made with a double shot of espresso, unless you would like a single shot. We serve one size only.",
     "items": [
       {
