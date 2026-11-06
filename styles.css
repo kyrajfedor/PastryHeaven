@@ -83,7 +83,7 @@ html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 8rem)}
 .visit{grid-template-columns:repeat(2,1fr)}
 @media (max-width:600px){.visit{grid-template-columns:1fr}}
 /* fix phone number appearance */
-a[href^="tel:"] {
+#phoneNumber {
     color: inherit; 
     text-decoration: none; 
 }
