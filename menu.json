@@ -1,103 +1,235 @@
-{
-  "Breakfast": [
-    { "name": "PH Sausage Pie", "price": "$12.95" },
-    { "name": "PH Vegetable Pie", "price": "$11.95" },
-    { "name": "Oatmeal", "price": "$7.95" },
-    { "name": "Croissant", "price": "$4.75" },
-    { "name": "Specialty Croissant", "price": "$7.50" },
-    { "name": "Toast & Jam", "price": "$3.50" },
-    { 
-      "name": "PH Fluffy Pancake", 
-      "price": "$14.95", 
-      "description": "Berry compote, Nutella Butter, Granola and Maple Syrup." 
-    },
-    { 
-      "name": "Abir’S Comfort Sandwich", 
-      "price": "$14.95", 
-      "description": "Multigrain, fried egg, cheese, mushroom, tomato, pickled onion and green leaf also comes with potato" 
-    }
-  ],
-  "Sandwiches": [
-    { 
-      "name": "Ph Grilled Cheese", 
-      "price": "$9.95", 
-      "description": "Texas white, selection of cheese, Italian seasoning and finished with honey" 
-    },
-    { "name": "Ph Ultimate Veggie", "price": "$9.95" },
-    { "name": "Grilled Ham N Cheese", "price": "$11.95" },
-    { "name": "Chopped Turkey", "price": "$11.95" },
-    { "name": "Prosciutto & Focaccia", "price": "$12.95" },
-    { 
-      "name": "The Basil Affair", 
-      "price": "$12.95", 
-      "description": "House baked Schiacciata, fig jam, remoulade, confit chicken, tomato, buffalo mozzarella, Banana peppers, balsamic, locally sourced basil leaves" 
-    },
-    { "name": "Italian Beef Baguette", "price": "$12.95" },
-    { "name": "SOUP - Salad", "price": "$7.95" },
-    { 
-      "name": "Roasted Chicken Focaccia", 
-      "price": "$12.95", 
-      "description": "House made focaccia, pesto mayo, roasted chicken, pickled onion, tomato and arugula" 
-    }
-  ],
-  "Desserts": [
-    { "name": "Muffin", "price": "$4.25" },
-    { "name": "Biscotti", "price": "$3.75" },
-    { "name": "Cream Roll", "price": "$3.00" },
-    { "name": "Cake Slice", "price": "$7.50" },
-    { "name": "Napolean Cake", "price": "$5.95" },
-    { "name": "Tarts", "price": "$4.75" },
-    { "name": "Honey Cake", "price": "$7.50" },
-    { "name": "Tiramisu - Red Velvet", "price": "$6.50" },
-    { "name": "Cheese Cake", "price": "$6.50" },
-    { "name": "Coconut Strawberry", "price": "$7.50" }
-  ],
-  "Drinks": [
-    { "name": "Filter Coffee", "price": "$3.50" },
-    { 
-      "name": "Espresso", 
-      "price": "$3.95", 
-      "description": "This is double shot espresso, single shot is also available for 3.50$" 
-    },
-    { 
-      "name": "Cappuccino", 
-      "price": "$6.50", 
-      "description": "Foamy, made with 3.25% milk, we can do it with 2% or skim milk as well." 
-    },
-    { "name": "Americano", "price": "$3.95" },
-    { "name": "Latte", "price": "$6.95" },
-    { "name": "Hot Chocolate", "price": "$4.90" },
-    { "name": "Sachet Tea", "price": "$3.95" },
-    { "name": "Herbal Tea", "price": "$4.16" },
-    { "name": "Water", "price": "$2.00" },
-    { "name": "Soda Can", "price": "$3.50" },
-    { "name": "Sparkling Water", "price": "$4.25" }
-  ],
-  "Kids Menu": [
-    {
-      "name": "Kids' All-Day Breakfast Plate",
-      "price": "$5.00",
-      "description": "One egg, one slice of toast and homestyle potatoes."
-    },
-    {
-      "name": "Classic Peanut Butter & Jelly",
-      "price": "$3.00",
-      "description": "A timeless favourite made just for little appetites."
-    },
-    {
-      "name": "Kids' Pasta",
-      "price": "$5.00",
-      "description": "Choose Alfredo or tomato sauce. Ask us which pasta shape is available today."
-    },
-    {
-      "name": "Kids' Pancake",
-      "price": "$5.00",
-      "description": "Fluffy pancake with whipped cream, berries and maple syrup."
-    },
-    {
-      "name": "Golden Grilled Cheese",
-      "price": "$5.00",
-      "description": "Golden toasted bread with melted cheddar and mozzarella."
-    }
-  ]
-}
+[
+  {
+    "id": "breakfast",
+    "title": "Breakfast",
+    "banner": "images/comfort.jpg",
+    "items": [
+      {
+        "name": "PH Sausage Pie",
+        "price": "$12.95", 
+        "img": "images/sausage-pie.webp", 
+        "description": "Made with italian sausage, chorizo and potatoes."
+      },
+      {
+        "name": "PH Vegetable Pie",
+        "price": "$11.95",
+        "img": "images/veg-pie.webp",
+        "description": "Made with kale, sweet peppers, sweet corn and mushrooms."
+      },
+      {
+        "name": "Oatmeal",
+        "price": "$7.95"
+      },
+      {
+        "name": "Croissant",
+        "price": "$4.75"
+      },
+      {
+        "name": "Specialty Croissant",
+        "price": "$7.50"
+      },
+      {
+        "name": "Toast & Jam",
+        "price": "$3.50"
+      },
+      {
+        "name": "PH Fluffy Pancake",
+        "price": "$14.95",
+        "img": "images/pan.jpg",
+        "description": "Berry compote, Nutella butter, granola and maple syrup."
+      },
+      {
+        "name": "Abir’s Comfort Sandwich",
+        "price": "$14.95",
+        "img": "images/comfortS.jpg",
+        "description": "Multigrain, fried egg, cheese, mushroom, tomato, pickled onion and green leaf. Comes with potato."
+      }
+    ]
+  },
+  {
+    "id": "sandwiches",
+    "title": "Sandwiches",
+    "banner": "images/croissant.jpg",
+    "items": [
+      {
+        "name": "PH Grilled Cheese",
+        "price": "$9.95",
+        "description": "Texas white, selection of cheese, Italian seasoning and finished with honey."
+      },
+      {
+        "name": "PH Ultimate Veggie",
+        "price": "$9.95"
+      },
+      {
+        "name": "Grilled Ham & Cheese",
+        "price": "$11.95"
+      },
+      {
+        "name": "Chopped Turkey",
+        "price": "$11.95"
+      },
+      {
+        "name": "Prosciutto & Focaccia",
+        "price": "$12.95"
+      },
+      {
+        "name": "The Basil Affair",
+        "price": "$12.95",
+        "img": "images/basil.jpg",
+        "description": "House-baked schiacciata, fig jam, remoulade, confit chicken, tomato, buffalo mozzarella, banana peppers, balsamic and locally sourced basil leaves."
+      },
+      {
+        "name": "Italian Beef Baguette",
+        "price": "$12.95"
+      },
+      {
+        "name": "Soup & Salad",
+        "price": "$7.95"
+      },
+      {
+        "name": "Roasted Chicken Focaccia",
+        "price": "$12.95",
+        "description": "House-made focaccia, pesto mayo, roasted chicken, pickled onion, tomato and arugula."
+      }
+    ]
+  },
+  {
+    "id": "desserts",
+    "title": "Desserts",
+    "banner": "images/cake.jpg",
+    "items": [
+      {
+        "name": "Muffin",
+        "price": "$4.25", 
+        "img": "images/muffin.webp", 
+        "description": "Baked in house. Choose from Blueberry, Bran & Raisin, Peanut Butter, and Nutella, Note - all muffins contain eggs, buttermilk, and butter."
+      },
+      {
+        "name": "Biscotti",
+        "price": "$3.75"
+      },
+      {
+        "name": "Cream Roll",
+        "price": "$3.00"
+      },
+      {
+        "name": "Cake Slice",
+        "price": "$7.50", 
+        "img":"images/cake-slice.jpg"
+      },
+      {
+        "name": "Napoleon Cake",
+        "price": "$5.95"
+      },
+      {
+        "name": "Tarts",
+        "price": "$4.75"
+      },
+      {
+        "name": "Honey Cake",
+        "price": "$7.50", 
+        "img": "images/honey-cake.webp"
+      },
+      {
+        "name": "Tiramisu / Red Velvet",
+        "price": "$6.50"
+      },
+      {
+        "name": "Cheesecake",
+        "price": "$6.50"
+      },
+      {
+        "name": "Coconut Strawberry",
+        "price": "$7.50"
+      }
+    ]
+  },
+  {
+    "id": "drinks",
+    "title": "Drinks",
+    "banner": "images/coffee.jpg",
+    "note": "All of our espresso-based drinks are made with a double shot of espresso, unless you would like a single shot. We serve one size only.",
+    "items": [
+      {
+        "name": "Filter Coffee",
+        "price": "$3.50"
+      },
+      {
+        "name": "Espresso",
+        "price":"$3.50 | $3.95",
+        "img": "images/esp.jpg", 
+        "description":"Single | Double"
+      },
+      {
+        "name": "Cappuccino",
+        "price": "$6.50",
+        "img": "images/cap.jpg",
+        "description": "Foamy, made with 3.25% milk. Ask for 2% or skim."
+      },
+      {
+        "name": "Americano",
+        "price": "$3.95"
+      },
+      {
+        "name": "Latte",
+        "price": "$6.95"
+      },
+      {
+        "name": "Hot Chocolate",
+        "price": "$4.90"
+      },
+      {
+        "name": "Sachet Tea",
+        "price": "$3.95"
+      },
+      {
+        "name": "Herbal Tea",
+        "price": "$4.16"
+      },
+      {
+        "name": "Water",
+        "price": "$2.00"
+      },
+      {
+        "name": "Soda Can",
+        "price": "$3.50"
+      },
+      {
+        "name": "Sparkling Water",
+        "price": "$4.25"
+      }
+    ]
+  },
+  {
+    "id": "kids",
+    "title": "Kids Menu",
+    "items": [
+      {
+        "name": "Kids’ All-Day Breakfast Plate",
+        "price": "$5.00",
+        "description": "One egg, one slice of toast and homestyle potatoes."
+      },
+      {
+        "name": "Classic Peanut Butter & Jelly",
+        "price": "$3.00",
+        "description": "A timeless favourite made just for little appetites."
+      },
+      {
+        "name": "Kids’ Pasta",
+        "price": "$5.00",
+        "description": "Choose Alfredo or tomato sauce. Ask which pasta shape is available today."
+      },
+      {
+        "name": "Kids’ Pancake",
+        "price": "$5.00",
+        "img": "images/kidpan.jpg",
+        "description": "Fluffy pancake with whipped cream, berries and maple syrup."
+      },
+      {
+        "name": "Golden Grilled Cheese",
+        "price": "$5.00",
+        "description": "Golden toasted bread with melted cheddar and mozzarella."
+      }
+    ]
+  }
+]
